@@ -5,7 +5,6 @@
 因为以前收集的poc都是东一个西一个的存放，到用的时间好多都找不到了，花了一天时间稍微总结了一下。
 ## 版本介绍
 目前简单写了50个函数的验证函数，支持多线程测试
-![image](https://user-images.githubusercontent.com/60703362/218304975-c40d3ea5-098f-4267-83f8-8cf045b65fa1.png)
 ## 使用教程
 方式1:
 按程序提示传入参数
@@ -15,3 +14,7 @@
 python3 main.py -t threads -m 漏洞选项 -u 漏洞列表.txt
 ```
 ![image](https://user-images.githubusercontent.com/60703362/218305110-ef963c12-be8b-4724-b7b5-f98ce2450275.png)
+## 后续改进
+增加搜索功能，现在是直接导入url连接地址，不是太方便，但是这样可以稍微提高结果的准确性
+增加自动查权重功能
+会考虑gui版本
